@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://github.com/QVux249"><img src="https://img.shields.io/badge/GitHub-QVux249-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:quangvutran249@gmail.com"><img src="https://img.shields.io/badge/Gmail-Liên_hệ-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=QVux249&label=Profile%20views&color=f43f5e&style=for-the-badge" />
 </p>
 
 ---
