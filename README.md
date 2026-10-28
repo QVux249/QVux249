@@ -77,18 +77,6 @@ const qvux = {
 
 ---
 
-## 🚀 Dự án nổi bật
-
-| Dự án | Mô tả | Công nghệ |
-|---|---|---|
-| [**Tuyensinh10_be**](https://github.com/QVux249/Tuyensinh10_be) | Backend cho hệ thống tuyển sinh lớp 10 | Java |
-| [**ProjectLTW**](https://github.com/QVux249/ProjectLTW) | Đồ án môn Lập trình Web | Java |
-| [**QLDAPM**](https://github.com/QVux249/QLDAPM) | Đồ án môn Quản lý dự án phần mềm | Java |
-| [**MusicQuizApp**](https://github.com/LeDinhNhutTien/MusicQuizApp) | Ứng dụng đố vui âm nhạc (dự án nhóm) | Java |
-| [**Project-Unamed**](https://github.com/DaoLongVu2107/Project-Unamed) | Dự án nhóm | Java |
-
----
-
 ## 📊 Thống kê GitHub
 
 <p align="center">
