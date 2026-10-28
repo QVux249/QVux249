@@ -39,8 +39,7 @@ const qvux = {
 
 - 🔭 Phát triển web **full-stack** với **Angular + Node.js**
 - 🗄️ Làm việc với **MySQL, SQL Server** qua **TypeORM**
-- 👯 Sẵn sàng hợp tác **dự án nhóm & open-source**
-- 💬 Hỏi mình về **REST API, thiết kế database**
+- **REST API, thiết kế database**
 
 </td>
 </tr>
@@ -63,24 +62,22 @@ const qvux = {
 
 ---
 
-## 📊 Thống kê GitHub
+## 📈 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=QVux249&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=percentile&title_color=f43f5e&icon_color=f43f5e&custom_title=QVux%20GitHub%20Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QVux249&layout=donut&theme=tokyonight&hide_border=true&langs_count=6&title_color=f43f5e&custom_title=Ng%C3%B4n%20ng%E1%BB%AF" />
+  <img width="80%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=QVux249&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=QVux249&theme=tokyonight&hide_border=true&ring=f43f5e&fire=f43f5e&currStreakLabel=f43f5e" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=QVux249&theme=tokyonight" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=QVux249&theme=tokyonight" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=QVux249&theme=tokyonight" />
 </p>
-
----
-
-## 📅 Lịch đóng góp
 
 <p align="center">
-  <img width="95%" src="https://ghchart.rshah.org/f43f5e/QVux249" alt="Contribution chart" />
+  <img src="https://streak-stats.demolab.com?user=QVux249&hide_border=true&background=1a1440&stroke=7c3aed&ring=f43f5e&fire=f43f5e&currStreakNum=ffffff&currStreakLabel=f43f5e&sideNums=e879f9&sideLabels=cbd5e1&dates=94a3b8" />
 </p>
+
 ---
 
 <p align="center">
