@@ -15,7 +15,7 @@
 
 ---
 
-## 🧑‍💻 For me
+## 🧑‍💻  About Me
 
 <table>
 <tr>
