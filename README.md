@@ -65,34 +65,22 @@ const qvux = {
 
 ## 📊 Thống kê GitHub
 
-<!-- Các thẻ dưới đây do file .github/workflows/profile.yml tự tạo và cập nhật -->
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="32%" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="32%" />
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="32%" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=QVux249&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=percentile&title_color=f43f5e&icon_color=f43f5e&custom_title=QVux%20GitHub%20Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QVux249&layout=donut&theme=tokyonight&hide_border=true&langs_count=6&title_color=f43f5e&custom_title=Ng%C3%B4n%20ng%E1%BB%AF" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=QVux249&theme=tokyonight&hide_border=true&ring=f43f5e&fire=f43f5e&currStreakLabel=f43f5e" />
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" height="195" />
 </p>
 
 ---
 
-## 🐍 Hoạt động đóng góp
+## 📅 Lịch đóng góp
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QVux249/QVux249/output/snake.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/QVux249/QVux249/output/snake-light.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/QVux249/QVux249/output/snake.svg" />
-  </picture>
+  <img width="95%" src="https://ghchart.rshah.org/f43f5e/QVux249" alt="Contribution chart" />
 </p>
-
 ---
 
 <p align="center">
