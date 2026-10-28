@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#339933"/>
+      <stop offset="50%" stop-color="#a21caf"/>
+      <stop offset="100%" stop-color="#dd0031"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dd0031"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#339933"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .a { animation: slide 14s linear infinite; }
+    .b { animation: slide 20s linear infinite reverse; }
+    @keyframes slide { from { transform: translateX(0) } to { transform: translateX(-1200px) } }
+  </style>
+  <g class="b" opacity="0.4">
+    <path d="M0 50 C150 20 300 80 450 50 S750 20 900 50 S1050 80 1200 50 S1500 20 1650 50 S1950 80 2100 50 S2250 20 2400 50 V120 H0 Z" fill="url(#w2)"/>
+  </g>
+  <g class="a" opacity="0.75">
+    <path d="M0 70 C200 45 400 95 600 70 S1000 45 1200 70 S1600 95 1800 70 S2200 45 2400 70 V120 H0 Z" fill="url(#w1)"/>
+  </g>
+</svg>

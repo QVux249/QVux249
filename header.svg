@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="55%" stop-color="#1a1440"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dd0031"/>
+      <stop offset="50%" stop-color="#a21caf"/>
+      <stop offset="100%" stop-color="#339933"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#339933"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#dd0031"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff4d6d"/>
+      <stop offset="50%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#dd0031" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#dd0031" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#339933" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#339933" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .float1 { animation: f1 7s ease-in-out infinite; }
+    .float2 { animation: f2 9s ease-in-out infinite; }
+    .waveA  { animation: slide 12s linear infinite; }
+    .waveB  { animation: slide 18s linear infinite reverse; }
+    .fade   { animation: fadein 1.2s ease-out both; }
+    .d1 { animation-delay: .2s } .d2 { animation-delay: .6s } .d3 { animation-delay: 1s }
+    .blink  { animation: blink 1s step-end infinite; }
+    @keyframes f1 { 0%,100% { transform: translate(0,0) } 50% { transform: translate(40px,20px) } }
+    @keyframes f2 { 0%,100% { transform: translate(0,0) } 50% { transform: translate(-50px,-15px) } }
+    @keyframes slide { from { transform: translateX(0) } to { transform: translateX(-1200px) } }
+    @keyframes fadein { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: translateY(0) } }
+    @keyframes blink { 50% { opacity: 0 } }
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'Fira Code', 'Consolas', 'Courier New', monospace; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- glows -->
+    <circle class="float1" cx="180" cy="80" r="220" fill="url(#glow1)"/>
+    <circle class="float2" cx="1040" cy="220" r="240" fill="url(#glow2)"/>
+
+    <!-- grid dots -->
+    <g fill="#ffffff" opacity="0.07">
+      <circle cx="60" cy="40" r="2"/><circle cx="120" cy="40" r="2"/><circle cx="180" cy="40" r="2"/>
+      <circle cx="60" cy="100" r="2"/><circle cx="120" cy="100" r="2"/><circle cx="180" cy="100" r="2"/>
+      <circle cx="1020" cy="40" r="2"/><circle cx="1080" cy="40" r="2"/><circle cx="1140" cy="40" r="2"/>
+      <circle cx="1020" cy="100" r="2"/><circle cx="1080" cy="100" r="2"/><circle cx="1140" cy="100" r="2"/>
+    </g>
+
+    <!-- code brackets decoration -->
+    <text x="70" y="200" class="mono" font-size="90" fill="#dd0031" opacity="0.18">&lt;/&gt;</text>
+    <text x="1010" y="150" class="mono" font-size="80" fill="#4ade80" opacity="0.16">{ }</text>
+
+    <!-- waves -->
+    <g class="waveB" opacity="0.35">
+      <path d="M0 250 C150 220 300 280 450 250 S750 220 900 250 S1050 280 1200 250 S1500 220 1650 250 S1950 280 2100 250 S2250 220 2400 250 V300 H0 Z" fill="url(#wave2)"/>
+    </g>
+    <g class="waveA" opacity="0.6">
+      <path d="M0 265 C200 240 400 290 600 265 S1000 240 1200 265 S1600 290 1800 265 S2200 240 2400 265 V300 H0 Z" fill="url(#wave1)"/>
+    </g>
+
+    <!-- text -->
+    <g class="fade d1">
+      <text x="600" y="118" text-anchor="middle" font-size="52" font-weight="800" fill="url(#title)">Xin chào, mình là QVux 👋</text>
+    </g>
+    <g class="fade d2">
+      <text x="600" y="162" text-anchor="middle" font-size="22" fill="#cbd5e1" class="mono">&gt; Full-Stack Developer · Angular &amp; Node.js<tspan class="blink" fill="#ff4d6d">_</tspan></text>
+    </g>
+
+    <!-- tech chips -->
+    <g class="fade d3" font-size="15" font-weight="600">
+      <rect x="352" y="186" width="96" height="30" rx="15" fill="#dd0031" fill-opacity="0.18" stroke="#dd0031"/>
+      <text x="400" y="206" text-anchor="middle" fill="#ff6b81">Angular</text>
+      <rect x="460" y="186" width="96" height="30" rx="15" fill="#339933" fill-opacity="0.18" stroke="#339933"/>
+      <text x="508" y="206" text-anchor="middle" fill="#6ee77a">Node.js</text>
+      <rect x="568" y="186" width="104" height="30" rx="15" fill="#fe0803" fill-opacity="0.15" stroke="#fe4a47"/>
+      <text x="620" y="206" text-anchor="middle" fill="#ff8a88">TypeORM</text>
+      <rect x="684" y="186" width="80" height="30" rx="15" fill="#4479a1" fill-opacity="0.2" stroke="#5b9bd5"/>
+      <text x="724" y="206" text-anchor="middle" fill="#8cc4f0">MySQL</text>
+      <rect x="776" y="186" width="72" height="30" rx="15" fill="#ed8b00" fill-opacity="0.18" stroke="#ed8b00"/>
+      <text x="812" y="206" text-anchor="middle" fill="#ffb347">Java</text>
+    </g>
+  </g>
+</svg>
