@@ -15,7 +15,7 @@
 
 ---
 
-## 🧑‍💻 Về mình
+## 🧑‍💻 For me
 
 <table>
 <tr>
@@ -46,7 +46,7 @@ const qvux = {
 
 ---
 
-## 🛠️ Công nghệ
+## 🛠️ Tech
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=angular,ts,js,html,css,nodejs,java,mysql,git,vscode,postman&perline=11&theme=dark" alt="Tech stack" />
